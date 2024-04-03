@@ -1,0 +1,92 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Buildding Layout */
+
+.card {
+  width: 44%;
+}
+
+.card > img {
+  float: left;
+  width: 50%;
+  object-fit: contain;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.content {
+  width: 55%;
+  margin-left: 18rem;
+  font-size: 10px;
+  line-height: 2;
+  word-spacing: 17px;
+  text-align: start;
+}
+footer {
+  clear: both;
+}
+
+/* Making Mobile Responsive */
+
+@media (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+  h1 {
+    font-size: 2.7rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .card > img {
+    width: 100%;
+    float: none;
+  }
+
+  .left,
+  .right {
+    float: none; /* Remove float*/
+  }
+
+  .content {
+    clear: both;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
