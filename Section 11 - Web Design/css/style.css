@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+/* **************************** */
+
+/* CSS Boiler Plate */
+
+/* COLOR PALETTE */
+/*#40514e */
+/* #000 */
+/* #e4f9f5 */
+/* #11cdd4 */
+/* #66bfbf */
+/* #d9edbf */
+/* #90d26d */
+
+/* Styling The top section */
+
+.top-container {
+  padding: 2rem 0.5rem;
+  background-color: #d9edbf;
+  color: #90d26d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.top-container h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.top-container h2 {
+  font-size: 2rem;
+}
+
+.title {
+  background-color: aliceblue;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+
+.title:hover {
+  background-color: #40514e;
+  color: #e4f9f5;
+}
+.cloud-right {
+  position: absolute;
+  top: 1rem;
+  right: 90rem;
+}
+.cloud-left {
+  position: absolute;
+  top: 7rem;
+  left: 90rem;
+}
+
+/* Making responsive */
+
+@media (max-width: 768px) {
+  /* img {
+    width: 100%;
+  } */
+  .top-container h1 {
+    font-size: 3rem;
+  }
+  .top-container h2 {
+    font-size: 2rem;
+  }
+  .top-container {
+    position: static;
+  }
+  .cloud-left {
+    top: 0rem;
+    left: 0;
+  }
+  .cloud-right {
+    top: 8rem;
+    right: 0;
+  }
+}
+
+/* End of the top container */
+
+/* ********************************* */
+
+/* Start of the Middle Container */
+
+/* ************************************ */
+
+.middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 10rem;
+  background-color: #90d26d;
+  color: #d9edbf;
+}
+
+.profile {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  gap: 1rem;
+}
+
+.profile .intro {
+  font-size: 3rem;
+}
+
+.middle-container > .profile > .profile-img {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* End of the middle container */
