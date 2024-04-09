@@ -123,3 +123,46 @@
 // let names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
 
 // console.log(whosPaying(names));
+
+// 99 bottles of the bear
+
+// let bears = 99;
+
+// const bear = () => {
+//   while (bears >= 0) {
+//     if (bears === 1) {
+//       console.log(`${bears} bottle of the Bear.`);
+//       bears--;
+//     } else {
+//       console.log(`${bears} bottles of the Bear.`);
+//     }
+
+//     bears--;
+//   }
+// };
+
+// bear();
+
+// fibonacci series challenge
+// fibonacci Number Generator
+
+// function fibonacciGenerator(num) {
+//   let fibonacciArr = [];
+//   let sum = 0;
+
+//   for (let i = 0; i < num; i++) {
+//     if (fibonacciArr.length === 0) {
+//       fibonacciArr.push(0);
+//     } else if (fibonacciArr.length < 2) {
+//       sum = 1 + fibonacciArr[i - 1];
+//       fibonacciArr.push(sum);
+//     } else {
+//       sum = fibonacciArr[i - 2] + fibonacciArr[i - 1];
+//       fibonacciArr.push(sum);
+//     }
+//   }
+
+//   return fibonacciArr;
+// }
+
+// console.log(fibonacciGenerator(15));
