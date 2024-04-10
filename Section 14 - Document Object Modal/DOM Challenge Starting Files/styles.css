@@ -1,0 +1,14 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  color: red;
+}
+
+button {
+  cursor: pointer;
+}
+.huge {
+  font-size: 10rem;
+}
