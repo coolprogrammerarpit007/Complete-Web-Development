@@ -5,6 +5,7 @@ const title = document.querySelector("h1");
 const img1 = document.querySelector(".img1");
 const img2 = document.querySelector(".img2");
 
+
 // event when the page loads.
 
 // rollDice function is called when dice rolls.
