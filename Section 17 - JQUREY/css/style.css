@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.bg-title {
+  color: yellow;
+  font-size: 10rem;
+  font-family: cursive;
+}
+
+.m-50 {
+  margin: 50px;
+}
